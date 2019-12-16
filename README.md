@@ -24,7 +24,7 @@ dependencies {
 }
 ```
 
-## Usage
+## Usage - Kotlin
 
 ```kotlin
 class MyFragment: Fragment() {
@@ -33,12 +33,28 @@ class MyFragment: Fragment() {
         super.onCreate(savedInstanceState)
         
         // A simple extension
-        statusBar().color(Color.WHITE).light(true)
+        statusBar.color(Color.WHITE).light(true)
     }
 }
 
 ```
 
+## Usage - Java
+```java
+public class MyFragment extends Fragment {
+    
+    @Override
+    public void onCreate(savedInstanceState: Bundle?) {
+        super.onCreate(savedInstanceState);
+	
+        // A simple extension
+        StatusBar.with(this)
+		.color(Color.WHITE)
+		.light(true);
+    }
+}
+
+```
 
 ## License
 Copyright 2019 Seanghay Yath
