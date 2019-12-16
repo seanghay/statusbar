@@ -1,15 +1,21 @@
-# Status Bar
+## Status Bar
 A small library for configuring status bar color in Fragment.
 
-# Installation
+## Installation
 
 ```groovy
+allprojects {
+		repositories {
+			maven { url 'https://jitpack.io' }
+		}
+}
+
 dependencies {
-    implementation 'com.seanghay.statusbar:statusbar:1.0.0'
+    implementation 'com.github.seanghay:statusbar:1.0.0'
 }
 ```
 
-# Usage
+## Usage
 
 ```kotlin
 class MyFragment: Fragment() {
