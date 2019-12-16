@@ -5,25 +5,6 @@ It can be useful in Navigation Component where we have only one Activity but man
 
 #### Try it and give us feedback! :smiley:
 
-## Installation
-
-1. Add JitPack
-```groovy
-allprojects {
-     repositories {
-	maven { url 'https://jitpack.io' }
-     }
-}
-
-```
-
-2. Add dependency
-```groovy
-dependencies {
-    implementation 'com.github.seanghay:statusbar:1.0.1'
-}
-```
-
 ## Usage in Kotlin Only
 
 ```kotlin
@@ -53,6 +34,26 @@ public class MyFragment extends Fragment {
     }
 }
 
+```
+
+
+## Installation
+
+1. Add JitPack
+```groovy
+allprojects {
+     repositories {
+	maven { url 'https://jitpack.io' }
+     }
+}
+
+```
+
+2. Add dependency
+```groovy
+dependencies {
+    implementation 'com.github.seanghay:statusbar:1.0.1'
+}
 ```
 
 ## License
