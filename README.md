@@ -24,7 +24,7 @@ dependencies {
 }
 ```
 
-## Usage - Kotlin
+## Usage in Kotlin Only
 
 ```kotlin
 class MyFragment: Fragment() {
@@ -39,7 +39,7 @@ class MyFragment: Fragment() {
 
 ```
 
-## Usage - Java
+## Usage in Java
 ```java
 public class MyFragment extends Fragment {
     
