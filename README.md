@@ -1,4 +1,4 @@
-## Status Bar
+# Status Bar
 A small library for configuring status bar color in Fragment.
 
 It can be useful in Navigation Component where we have only one Activity but many Fragments.
