@@ -13,10 +13,7 @@ class One: Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        statusBar()
-            .color(Color.YELLOW)
-            .light(true)
-
+        statusBar.color(Color.YELLOW).light(true)
     }
 
     override fun onCreateView(

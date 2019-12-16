@@ -13,7 +13,7 @@ class Two : Fragment() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        statusBar()
+        statusBar
             .color(Color.GREEN)
             .light(false)
     }

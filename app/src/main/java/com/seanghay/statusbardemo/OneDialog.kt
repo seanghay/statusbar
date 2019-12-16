@@ -9,7 +9,7 @@ import com.seanghay.statusbar.statusBar
 class OneDialog : AppCompatDialogFragment() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        statusBar()
+        statusBar
             .color(Color.RED)
             .light(false)
     }
