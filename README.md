@@ -20,7 +20,7 @@ allprojects {
 2. Add dependency
 ```groovy
 dependencies {
-    implementation 'com.github.seanghay:statusbar:1.0.0'
+    implementation 'com.github.seanghay:statusbar:1.0.1'
 }
 ```
 
@@ -44,10 +44,9 @@ class MyFragment: Fragment() {
 public class MyFragment extends Fragment {
     
     @Override
-    public void onCreate(savedInstanceState: Bundle?) {
+    public void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 	
-        // A simple extension
         StatusBar.with(this)
 		.color(Color.WHITE)
 		.light(true);
