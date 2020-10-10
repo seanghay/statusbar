@@ -44,7 +44,7 @@ public class MyFragment extends Fragment {
 ## Installation
 
 1. Add JitPack
-```groovy
+```gradle
 allprojects {
      repositories {
 	maven { url 'https://jitpack.io' }
@@ -54,7 +54,7 @@ allprojects {
 ```
 
 2. Add dependency
-```groovy
+```gradle
 dependencies {
     implementation 'com.github.seanghay:statusbar:1.0.1'
 }
